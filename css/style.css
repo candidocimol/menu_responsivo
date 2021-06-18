@@ -1,0 +1,53 @@
+*{/*todos os elementos */
+   box-sizing:border-box;/*Incorporar as bordas ao tamanho do elemento*/
+	margin:0;/*sem margem para todos os elemento*/
+	padding:0;/*Sem preenchimento para todos os elementos*/
+}
+
+
+
+nav ul li a{
+	display: block;/*Ajusta o elemento ao elemento*/
+   text-decoration: none;/*Remove sublinhado do link*/
+   font-weight: bold;/*Aplica negrito na fonte*/
+   text-transform: uppercase;/*Transforma caracteres para maiúsculo*/
+   height: 30px;/*Defina altura do hiperlink*/
+	padding-top:10px;/*Define preenchimento superior do hiprlink*/
+   border-bottom: 1px solid #383838;/*Define uma borda no limite inferior*/
+	text-align:center; /*Texto alinhado ao centro*/
+	/*background-color:#FBF900; /*Define cor de fundo*/
+	color:#2b6ca3;
+}
+
+
+nav ul li a:hover{/*Evento passagem do mouse*/
+	background-color:#2b6ca3; /*Define cor de fundo*/
+	color:#fff;
+}
+
+nav ul li a:active{/*Evento clique do mouse*/
+	background-color:red; /*Define cor de fundo*/
+	
+}
+
+
+
+
+
+
+@media only screen and (min-width:1024px){/*Para resoluções acima de 1024px*/
+	nav ul li a{
+		float:left; /*Fluído a esquerda*/
+		margin:15px;
+		width:160px;
+	}
+
+	nav ul li{
+		list-style:none;/*Remove marcador do item da lista*/
+	}
+}
+
+
+
+
+
